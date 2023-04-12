@@ -1,0 +1,202 @@
+body{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-block-end: 50px;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: ivory;
+    font-size: 12px;
+    padding-block-end: 5px;
+}
+
+h1{
+    font-family: 'Bungee Shade', arial;
+    text-align: center;
+    font-size: 50px;
+    color:orangered;
+}
+
+h2{
+    font-family: 'Electrolize', arial;
+    font-size: 30px;
+    color: yellowgreen;
+}
+
+h4{
+    font-family: 'Electrolize', arial;
+    font-size: 40px;
+    color: aqua;
+    text-align: center;
+    margin: 50px;
+}
+
+span{
+    font-family: 'Electrolize';
+    font-size: larger;
+    font-weight: bold;
+}
+
+b{
+    color: crimson;
+    text-shadow: -1px 1px black;
+}
+
+a{
+    color: ivory;
+}
+
+
+
+.botoes-menu{
+    background-color: black;
+    display: flex;
+}
+
+.botoes-menu button{
+    width: 100%;
+    height: 80px;
+    margin: 10px;
+    background: linear-gradient(0deg, rgba(255,64,0,1) 3%, rgba(255,0,0,1) 4%, rgba(27,27,27,1) 30%, rgba(0,0,0,0.5) 100%);
+    color: ivory;
+    border: 2px groove #636363;
+    border-radius: 20px;
+    box-shadow: -5px 8px 10px #1f1f1fd0;
+}
+
+.botoes-menu .botao:hover{
+    background: linear-gradient(to bottom, tomato, #333);
+    cursor: pointer;
+}
+
+.bloco-home{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    color: ivory;
+}
+
+.mais{
+    font-size: 30px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.mais:hover{
+    background-color:indianred;
+    cursor: pointer;
+}
+
+.bloco .bloco-info{
+    padding-block-end: 30px;
+    color: ivory;
+    font-family: 'Nova Flat', arial;
+}
+
+.bloco .bloco-info .cabecalho{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.bloco .bloco-info .cabecalho .info{
+    text-align: center;
+    color: ivory;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.bloco .bloco-info .cabecalho .info img{
+    width: 200px;
+    border-radius: 30px 10px;
+    border: 10px double ivory;
+    box-shadow: -10px 10px 10px #1f1f1fad;
+    margin-bottom: 30px;
+}
+
+.bloco .bloco-info .conteudo{
+    display: none;
+    padding: 30px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: lightgray;
+    border-radius: 0px 30px 30px;
+    border: 5px ridge ivory;
+    color: black;
+}
+
+.bloco .bloco-info .conteudo.mostra{
+    display: block;
+}
+
+.conteudo .imagem{
+    width: 50%;
+}
+
+.blocos-menu{
+    padding: 30px;
+}
+
+.blocos-menu .bloco{
+    display: none;
+}
+
+.blocos-menu .bloco.ativo{
+    display: block;
+}
+
+.redes{
+    padding: 10px;
+}
+
+.bloco-contato{
+    color: ivory;
+    text-align: center;
+}
+
+.cubo img{
+    width: 35px;
+    filter: invert(1);
+}
+
+.pasta img{
+    height: 80px;
+}
+
+.contato img{
+    width: 200px;
+}
+
+.redes img{
+    width: 80px;
+}
+
+.conteudo .desenho{
+    display: none;
+}
+
+.conteudo .desenho.exibir{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.conteudo .foto{
+    display: none;
+}
+
+.conteudo .foto.exibir{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
