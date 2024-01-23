@@ -1,7 +1,7 @@
 /*Funcionamento no Firefox*/
 *{
     scrollbar-width: thin;
-    scrollbar-color: orangered black;
+    scrollbar-color: grey black;
 }
 
 /*Funcionamento no Chrome, Edge e Safari*/
@@ -14,7 +14,7 @@
 }
 
 *::-webkit-scrollbar-thumb{
-    background-color: orangered;
+    background-color: grey;
     border-radius: 20px;
     border: 3px solid black;
 }

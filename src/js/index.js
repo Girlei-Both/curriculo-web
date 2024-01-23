@@ -60,7 +60,7 @@ function exibeConteudo(indice){
 
 
 var dataDeNascimento = new Date("1987-12-31")
-var idade = new Date().getFullYear() - dataDeNascimento.getFullYear() - 1; //-1 por ter nascido no último dia do ano
+var idade = new Date().getFullYear() - dataDeNascimento.getFullYear();
 document.getElementById("idade").innerHTML = idade;
 
 
